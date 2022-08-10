@@ -1,4 +1,4 @@
-include{'firebase-connector.js');
+include('firebase-connector.js');
 
 let myFlashcards = [ {
     "question": "Name this species of bird.",
