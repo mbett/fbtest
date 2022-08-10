@@ -1,3 +1,5 @@
+include{'firebase-connector.js');
+
 let myFlashcards = [ {
     "question": "Name this species of bird.",
     "image" : "images/barn-owl-2550068__340.webp",
