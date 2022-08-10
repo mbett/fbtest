@@ -21,7 +21,7 @@ let myFlashcards = [ {
 // Make the database point to the location root -> deck -> flashcards
 // If the location doesn't exist is will be created
 // Create the reference location
-let dbLocation = app.database().ref('deck/flashcards'); 
+let dbLocation = db.database().ref('deck/flashcards'); 
  
 // myFlashcards will be stored under flashcards in the database
 // Anything that was in this location will be overwritten
@@ -31,7 +31,7 @@ dbLocation.set(myFlashcards);
 
 // As before,make the database point to the location where the data exists
 // If the location doesn't exist it will be created but there will be nothing to retirieve
-let fc = firebase.database().ref('deck/flashcards');
+let fc = db.database().ref('deck/flashcards');
 
 // A variable to store the JSON results in a human readable format
 let jsonString;
