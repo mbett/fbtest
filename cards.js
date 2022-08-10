@@ -18,23 +18,6 @@ let myFlashcards = [ {
 
 
 
-
-  // Your web app's Firebase configuration
-  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-  const firebaseConfig = {
-    apiKey: "AIzaSyDHUkpWdXOICM6_oka9SsNWScuqAUm95hE",
-    authDomain: "best-learning-tool-bd3a0.firebaseapp.com",
-    projectId: "best-learning-tool-bd3a0",
-    storageBucket: "best-learning-tool-bd3a0.appspot.com",
-    messagingSenderId: "784855659403",
-    appId: "1:784855659403:web:7ac0ff09b72481489eb58e",
-    measurementId: "G-30KRCJDD9J"
-  };
-
-  // Initialize Firebase
-  const firebase = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(firebase);
-
 // Make the database point to the location root -> deck -> flashcards
 // If the location doesn't exist is will be created
 // Create the reference location
