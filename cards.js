@@ -1,22 +1,4 @@
 
-function initializeFirebase() {
-  // Your web app's Firebase configuration
- const firebaseConfig = {
-  apiKey: "AIzaSyDHUkpWdXOICM6_oka9SsNWScuqAUm95hE",
-  authDomain: "best-learning-tool-bd3a0.firebaseapp.com",
-  projectId: "best-learning-tool-bd3a0",
-  storageBucket: "best-learning-tool-bd3a0.appspot.com",
-  messagingSenderId: "784855659403",
-  appId: "1:784855659403:web:7ac0ff09b72481489eb58e",
-  measurementId: "G-30KRCJDD9J"
-};
-
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
-}
-
-
 let myFlashcards = [ {
     "question": "Name this species of bird.",
     "image" : "images/barn-owl-2550068__340.webp",
@@ -33,8 +15,6 @@ let myFlashcards = [ {
     "answer": "Hummingbird"
     }
   ];
-
-initializeFirebase();
 
 // Make the database point to the location root -> deck -> flashcards
 // If the location doesn't exist is will be created
