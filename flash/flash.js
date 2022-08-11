@@ -15,7 +15,7 @@ let myflashcards = [
 let i = 0;
 let ques = document.getElementById('q');
 let ans = document.getElementById('a');
-let display = document.getElementById('Q');
+let display = document.getElementById('q2');
 let next = document.getElementById('N');
 
 display.addEventListener("click",function(){
