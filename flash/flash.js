@@ -18,6 +18,8 @@ let ans = document.getElementById('a');
 let display = document.getElementById('q2');
 let next = document.getElementById('N');
 
+  console.log('display=' + display);
+
 display.addEventListener("click",function(){
     // display.textContent="changed";
     ques.innerHTML = a;
